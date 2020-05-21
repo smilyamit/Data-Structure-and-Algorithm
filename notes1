@@ -87,8 +87,13 @@ o(2^n) ------->. exponential* tower of hanoi problem
 #what n why array
 #Types of array (1d,2d,3d,... in java upto 255 dimn of array possible but 1d,2d are more useful)
 #How is array represented in memory (only in 1 dim form)
+
 #Common operations like creating, inserting, traversing, accessing, deleting, searching, etc
-*creating = (declaring, instantiation, intializing a 1d array)
+
+*creating = (declaring(eg array), instantiation (compiler locates memory location), intializing a 1d array ())
+* traversing (array traversal means we name first index in memeory location as eg x102 +0  than for next no we just
+  increment by 1,2,3 for eg x102 +1, x102+2....)
+*
 
 
 
