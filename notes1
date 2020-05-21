@@ -1,3 +1,85 @@
-#Data Structure?
-DS is a way to organize data so that it enables us to processed in efficient time
+1 A)#Data Structure?
+DS is a way to organize the data so that it enables us to process it in efficient time
+
+#Algorithm
+It is a set of rules to be followed to solve a problem
+
+#why compqnies ask ds and algorithm?
+=> to check problem solving skill
+=> to check coding/testing skill
+
+#Why we need different ds?
+Every ds have different property and diff ds is used for different problem for eg
+Tree ds: used for parent-child relationship
+Graph ds: used for distance relationship
+Queue ds: used for sequence problem
+
+1 B) # What is recursion? (works on principle of lifo)
+=> (opening a small box from big box and so on... at end get gold ring)
+1) Same operation is performed multiple times with different input
+2) In every step we try to make the problem smaller
+3) We must have a base condition, which tells the system when to stop the recursion
+
+* when to use recurssion and when to use loop (iterations)
+Recn: whenever a given problem can be broken down into similiar problem
+It is heavily used in ds like in tree, graph
+it is heavily used in algo technique like divide & conquer, greedy algorithm & Dynamic Programming
+
+* Recursion works by the help of stack memory. In short all pending work of recursion is stacked in stack memory
+  (logical data structrue)
+use case (factorial, fib)
+
+def fib(n):
+  if n< 1:
+    return error
+  if n <=2:
+    return n-1
+  else:
+    return (fib(n-1) + fib(n-2))
+
+
+print(fib(8))
+
+# for first n sec postn in fib no is reserved as 0 and 1 so n-1
+#remer in fibonacci there is no 0th index
+
+#Recursion vs iteration(loop)
+rescurn (space more, time more, easy code yes)
+itern (space less, time less, easy code no)
+
+## when to use recurn & when not to use
+use:
+when problem can be break down in similiar sub problem
+time and space in memory is not a concern
+when just a solution is required (no emphasis on efficient)
+
+no use:
+Don't use if above 3 condition is not satisfied. in short in critical and emergency condn like car airbag, embedded sysm
+
+
+# Practical use of recursion
+=> stack
+=> Tree (traversal/searching/insertion/deletion
+=>sorting (quick sort and merge sort)
+=> divide and conquer
+=> dynamic programming.. etc
+
+1 c) Algorithm runtime analysis
+It is a study of given algorithm runtime  by identifying its behaviour as the input size of the algorithm increases
+by layman term: how much time will given algorithm will take to run
+eg( car milegae  on highway: 20(best), in mix env: 15(avg) , in city: 10(worst)
+
+3 notations in runtime analysis:
+1) omega (algo will not take less than given(min) time) (1 unit of time)
+2) Big-o (algo will not take more than given(max) time)  (n unit of time) => in practical use
+3)Theta algo will  take in between  given(aveg) time interval) (n/2 unit of time)
+
+# Most common eg of algorithm runtime complexities:
+o(n) ------->constant*        adding an element at front of linked list (also called as order of 1)
+o(logn) -------> logarithmic* finding an element in an sorted array.    (also called as order of logarithemic)
+o(n).   -------> linear*      finding an element in an unsorted array
+o(nlogn)-------> linear log*            linearlogarithmic merge sort
+o(n^2)  ------->  quardatic*  shortest path between two nodes in a graph
+o(n^3) ------->. cubic*       matrix multiplication
+o(2^n) ------->. exponential* tower of hanoi problem
 
