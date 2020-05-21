@@ -100,3 +100,27 @@ o(2^n) ------->. exponential* tower of hanoi problem
 # practical use of array
 # pros and cons of array
 
+#jdk= java development kit (it comes with java SE)
+#intelli j : A good editor to run java program in commandline (no gui)
+
+################################################################
+#basic java template while creating  java inside intelli j for first time
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	   // print your code here
+    // eg System.out.println("hello world);
+    }
+}
+##############################################################
+
+In java 
+primitive type data is used to store simple value
+reference type data is used to store complex objects
+both are different in memory mangement
+
+*paramter vs argument
+=>parameter are those which we define in our method
+=>arguments  are the actual values that we pass to those methods
