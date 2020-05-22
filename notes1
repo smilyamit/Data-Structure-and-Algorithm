@@ -97,8 +97,24 @@ o(2^n) ------->. exponential* tower of hanoi problem
 
 
 
-# practical use of array
-# pros and cons of array
+# practical use of array (tc-time complexity, sc- space complexity)
+*popular method used in array
+creating an array    tc -->O(1) sc--> O(1)
+inserting an array.  tc -->O(1) sc--> O(1)
+traversing an array. tc -->O(mn) sc--> O(1)
+accessing given value tc -->O(1) sc--> O(1)
+searching a given value tc -->O(mn) sc--> O(1)
+deleting a given cells value tc -->O(1) sc--> O(1)
+
+# when to use/avoid array
+note: if there is 2,3 value only than it can be stored by declaring variable
+* when to use:
+when there is a need to store multiple similar type of data
+when random access is regular affair
+
+* when to avoid
+data to be stored is non -homogenous
+when no of data to be stored is not known (linked list is better here as all of this is done in runtime)
 
 #jdk= java development kit (it comes with java SE)
 #intelli j : A good editor to run java program in commandline (no gui)
@@ -124,3 +140,9 @@ both are different in memory mangement
 *paramter vs argument
 =>parameter are those which we define in our method
 =>arguments  are the actual values that we pass to those methods
+
+## if any cell of an array empty means it is having the value of 2^-31 achieved by
+ eg int arr[] = null; 
+ arr[i] = Intezer.Min_Value
+ 
+##
