@@ -83,7 +83,7 @@ o(n^2)  ------->  quardatic*  shortest path between two nodes in a graph
 o(n^3) ------->. cubic*       matrix multiplication
 o(2^n) ------->. exponential* tower of hanoi problem
 
-2] Array
+2 a] Array
 #what n why array
 #Types of array (1d,2d,3d,... in java upto 255 dimn of array possible but 1d,2d are more useful)
 #How is array represented in memory (only in 1 dim form)
@@ -145,4 +145,14 @@ both are different in memory mangement
  eg int arr[] = null; 
  arr[i] = Intezer.Min_Value
  
-##
+#2 b] linked list
+types:
+linear chained link list 
+circular chain link list
+double linked list
+double circular linked list
+In all we have => creation, insertion, traversing,searching , deletion of node, deletion of linked list
+and its related to time complexity and space complexity
+
+
+
