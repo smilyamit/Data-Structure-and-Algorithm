@@ -154,5 +154,24 @@ double circular linked list
 In all we have => creation, insertion, traversing,searching , deletion of node, deletion of linked list
 and its related to time complexity and space complexity
 
+#3 Logical datastructure
+a) stack
+--> create stack()
+---> push() (similar to insert)
+---> pop() (similar to remove)
+---> peek()
+--->isEmpty
+--->isFull
+--->DeleteStack()
+
+##pros/cons for stack in array
+easy to implement
+con: fixed size of array
+
+
+
+##pros/cons for stack in linked list
+-variable size
+-con: moderate in implementation
 
 
