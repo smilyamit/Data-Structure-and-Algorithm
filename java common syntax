@@ -312,4 +312,19 @@ else
 statement 4
 
 * Note no braces is needed if there is only one braces
-#
+
+
+## Switch statement (same like if else)
+switch (x) {
+case 1: 
+...
+break;
+case 2:
+....
+break;
+default: 
+...
+}
+
+## Terniary Operator
+String className = (income > 100_000) ? “First” : “Economy”;
