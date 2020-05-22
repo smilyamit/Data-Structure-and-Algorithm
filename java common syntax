@@ -244,3 +244,72 @@ Convert the whole array into one huge string.
 
 82. Arrays.binarySearch([array], [object])
 This will search for [object] in [array].
+
+
+To print date in java
+import java.util.Date;
+
+public class Main {
+
+    public static void main(String[] args) {
+	  System.out.println(age);    // println means line
+        Date now = new Date();
+        System.out.println(now);
+    }
+    
+# mathod -1 to calculate mortgage
+```
+public class Main {
+
+    public static void main(String[] args) {
+     int p = 100_000;
+     int t =  360;  // 30*12
+     double r = .00326;  // 3.92/(100* 12)
+     var  mortgage = p*( r*Math.pow((1+r), t))/(Math.pow((1+r), t) -1);
+        System.out.println("mortgage per month: " + mortgage);
+    }
+}
+```
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in);
+        System.out.println("enter the principal: ");
+     int p = myObj.nextInt();
+        System.out.println("enter the time multiply with 12: ");
+     int t =  myObj.nextInt();   // 30*12
+        System.out.println("enter the rate divide by 12: ");
+     double r = myObj.nextDouble();  // 3.92/(100* 12)
+     var  mortgage = p*( r*Math.pow((1+r), t))/(Math.pow((1+r), t) -1);
+        System.out.println("mortgage per month: " + mortgage);
+
+    }
+}
+
+## In java 
+logical AND denoted by &&
+logical OR denoted by ||
+
+#sortcut to print in output in java
+sout + enter
+
+## conditionals
+#If statement
+if (condition1) {
+   statement1a
+   statement 1b
+   }
+else if (condition2)  
+statement2
+
+else if (condition3)
+statement3
+
+else
+statement 4
+
+* Note no braces is needed if there is only one braces
+#
