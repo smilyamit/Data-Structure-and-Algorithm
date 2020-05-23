@@ -237,6 +237,18 @@ note:
 for dequeing (means for removing value), beginning of queue come in action
 for enquing (means for adding value), last(top) of queue come in action
 
+# 3 c) Binary Tree
+## BST (Binary Search Tree)
+# Successor
+the least value in the right of subtree is called successor
+
+#predecor
+root node value is called predecor
+
+
+
+
+
 
 
 
