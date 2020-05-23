@@ -214,6 +214,30 @@ Serving requests on a single shared resource, like a printer
 Call Center phone systems uses Queues to hold people calling them in an order
 Handling of interrupts in real-time systems
 
+types:
+
+array
+linear queue
+ciccular queue
+
+linked list
+linear queue 
+circular queue (not possible)
+
+# operations in queue
+createQueue()
+enQueue()
+deQueue()
+peekinQueue()
+isEmpty()
+isFull()
+deleteQueue()
+
+note:
+for dequeing (means for removing value), beginning of queue come in action
+for enquing (means for adding value), last(top) of queue come in action
+
+
 
 
 
