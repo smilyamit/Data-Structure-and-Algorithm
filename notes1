@@ -174,5 +174,49 @@ con: fixed size of array
 -variable size
 -con: moderate in implementation
 
+# how push work in stack
+* algorithm
+push(nodeValue):
+node.value = nodeValue
+node.next = header // so intially header adress will be null so node address will be also null
+header = node  // now let suppose we update header with some address 111 than this address will be assigned at node just 
+               below it. this address will be link between header and node
+
+# peek() // by this operation you can see the first element from stack without popping it out
+peek():
+return headert.value
+
+# IsEmpty():
+if (headers equal null)
+ return true
+
+else
+return false
+
+#deleteStack
+
+deleteStack()
+header = null
+
+When to use stack and when not
+# use
+1 helps manage the data in a particularway
+2 cannot be easily corrupted
+
+#dont use
+1 when u want to access the data randomly it is not possible
+ so if you have dont some mistkae with some data which are in the middle of stack than it will be costly to rectify
+ 
+
+#3 b) Queue (fifo: first in first out)
+use:
+Serving requests on a single shared resource, like a printer
+Call Center phone systems uses Queues to hold people calling them in an order
+Handling of interrupts in real-time systems
+
+
+
+
+
 
 
