@@ -245,6 +245,14 @@ the least value in the right of subtree is called successor
 #predecor
 root node value is called predecor
 
+#Application of BST
+1) A Self-Balancing Binary Search Tree is used to maintain sorted stream of data. For example,
+suppose we are getting online orders placed and we want to maintain the live data (in RAM) in sorted order of prices
+
+2)  allows fast search, insert, delete on a sorted data
+3) It also allows finding closest item
+
+
 
 
 
