@@ -245,12 +245,32 @@ the least value in the right of subtree is called successor
 #predecor
 root node value is called predecor
 
+#Balanced and unbalanced BST
+*) AVL tree(Adelson-Velsky and Landis) Tree = It is a self balancing balancing tree
+
 #Application of BST
 1) A Self-Balancing Binary Search Tree is used to maintain sorted stream of data. For example,
 suppose we are getting online orders placed and we want to maintain the live data (in RAM) in sorted order of prices
 
 2)  allows fast search, insert, delete on a sorted data
 3) It also allows finding closest item
+
+
+# Extra 1 - Recurssion , Extra-2 Hashing, Extra-3 Sorting
+
+# Extra 2) Hashing
+Hashing is a method of sorting and indexing data. The idea behind hashing is to allow large amounts of data to be indexed 
+using keys commonly created by using formulas
+
+#some terminologies:
+Hash function: a hash function is any function that can be used to map data of arbitary size to data of fixed size
+key: input data given user
+hash value: The values returned by a hash function are called hash values
+hash table: It is a data structure which implements an associate array abstract
+
+# Extra 3) Sorting
+
+
 
 
 
