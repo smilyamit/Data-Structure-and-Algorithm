@@ -13,6 +13,7 @@ DS is a way to organize the data so that it enables us to process it in efficien
 #Algorithm
 It is a set of rules to be followed to solve a problem
 
+
 #why compqnies ask ds and algorithm?
 => to check problem solving skill
 => to check coding/testing skill
@@ -279,7 +280,36 @@ hash table: It is a data structure which implements an associate array abstract
 
 # Extra 3) Sorting.
 
+#######################
+By Saurab Sukala Sir
+Graph Ds or What is Graph?
+A graph is a abstract data type that meant to implement the graph concepts from mathematics
+A graph is a collection of nodes, connected by edges
 
+# Abstract data type
+It is a collection of data structure and set of operations
+eg: arrray and linked list are physical data structure
+eg stack, queue, hashing, BST, Graph are abstract data type or logical ds
+
+* pop and push are set of operations
+
+# 3 ways to represent graph data structure
+adjancey matrix, adjancey list, adjancey set
+
+######################################################################
+How to develop logic building
+1)Daily practice.
+2)Dry run programs.
+3)take notes and read it in cumulative manner daily.
+4) Solve a lot of MCQs.
+5) Don't give up.
+
+1. Do too much questions in each topic and chapter 
+2. Don't see solution quickly 
+3. Increase your level slowly slowly 
+4. Conceptual clearity 
+5. Keep regularity
+######################################################################
 
 
 
